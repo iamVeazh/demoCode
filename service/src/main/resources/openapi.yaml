@@ -1,0 +1,6 @@
+prettyPrint: true
+openAPI:
+  info:
+    title: Norkin server API
+    description: API
+    version: ${project.version}

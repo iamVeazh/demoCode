@@ -1,0 +1,20 @@
+version: "3"
+services:
+  norkin-monitor:
+    container_name: norkin-monitor
+    hostname: norkin-monitor
+    build:
+      context: .
+    ports:
+      - 50051:50051
+  db:
+    image: postgres
+    container_name: db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: test_db
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+
+
