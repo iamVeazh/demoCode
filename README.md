@@ -1,0 +1,1 @@
+Hi. Here is a small project that reflects my code style and my skills. When choosing a stack, Java EE was specifically chosen as the purest and revealing the true knowledge of Java. I can work well with all popular technologies and frameworks.
